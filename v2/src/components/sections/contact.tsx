@@ -94,14 +94,17 @@ export function Contact() {
         body: JSON.stringify(data),
       });
 
+      const result = await response.json();
+
       if (response.ok) {
         setStatus("success");
         (e.target as HTMLFormElement).reset();
       } else {
+        console.error("Formspree error:", result);
         setStatus("error");
       }
     } catch (error) {
-      console.error("Submission error:", error);
+      console.error("Submission network error:", error);
       setStatus("error");
     } finally {
       setIsSubmitting(false);
