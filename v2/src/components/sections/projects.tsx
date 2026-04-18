@@ -12,12 +12,12 @@ const CATEGORIES = ["All", "Full Stack", "Backend", "AI / ML"];
 const PROJECTS = [
   {
     id: 1,
-    title: "PillPrice — Pharmacy Aggregator",
+    title: "MediConnect",
     category: "Full Stack",
     description:
-      "A modern web app helping users find the best prescription prices by comparing local pharmacy rates. Features high-end UI animations, real-time scraping logic, and geolocation-based branch filtering.",
-    tags: ["Next.js 15", "Tailwind CSS", "Prisma", "Supabase", "Framer Motion"],
-    demoUrl: "https://pill-price.vercel.app/",
+      "A healthcare platform with separate dashboards for doctors and patients. Features dual login system, doctor appointment management, patient reviews, availability tracking, and booking system.",
+    tags: ["ReactJS", "NodeJS", "ExpressJS", "MongoDB", "Tailwind CSS"],
+    demoUrl: "#",
     githubUrl: "#",
     featured: true,
     gradient: "from-blue-500/20 to-indigo-500/20",
@@ -25,55 +25,16 @@ const PROJECTS = [
   },
   {
     id: 2,
-    title: "Event-Driven Order System",
-    category: "Backend",
-    description:
-      "Fault-tolerant microservices on Kubernetes. Implemented Saga and Outbox patterns for reliable multi-service transactions and exactly-once event delivery.",
-    tags: ["Spring Boot", "Kafka", "Kubernetes", "Redis", "MySQL", "Prometheus"],
-    demoUrl: "#",
-    githubUrl: "#",
-    featured: true,
-    gradient: "from-violet-500/20 to-purple-500/20",
-    accentColor: "oklch(0.65 0.2 290)",
-  },
-  {
-    id: 3,
-    title: "Real-Time Fraud Detection",
-    category: "AI / ML",
-    description:
-      "Streaming system combining rule-based filtering with ML anomaly detection. Handles 100k+ transactions/minute with fully async communication.",
-    tags: ["Spring Boot", "Kafka", "Rule Engine", "ML", "Anomaly Detection"],
-    demoUrl: "#",
-    githubUrl: "#",
-    featured: false,
-    gradient: "from-cyan-500/20 to-blue-500/20",
-    accentColor: "oklch(0.7 0.18 210)",
-  },
-  {
-    id: 4,
-    title: "Dementia Recognition System",
-    category: "AI / ML",
-    description:
-      "Deep learning model using pre-trained VGG16 to classify MRI brain scans into various dementia stages. Preprocessed and augmented medical imaging datasets.",
-    tags: ["TensorFlow", "Keras", "VGG16", "CNN", "Medical Imaging"],
-    demoUrl: "#",
-    githubUrl: "#",
-    featured: false,
-    gradient: "from-emerald-500/20 to-teal-500/20",
-    accentColor: "oklch(0.65 0.18 170)",
-  },
-  {
-    id: 5,
-    title: "AI News Aggregator Platform",
+    title: "WealthWell",
     category: "Full Stack",
     description:
-      "End-to-end platform leveraging OpenAI APIs and LLMs to aggregate, summarize, and analyze trending AI news. Includes vector databases for semantic search.",
-    tags: ["OpenAI", "Spring Boot", "React", "Vector DB", "RAG"],
+      "A personal finance tracker designed to help users manage their income, expenses, savings, and investments. Features CRUD operations, weekly analytics charts, savings goals, and spending visualization.",
+    tags: ["ReactJS", "NodeJS", "ExpressJS", "MongoDB", "Chart.js"],
     demoUrl: "#",
-    githubUrl: "https://github.com/kaveesh1402/news-aggregator",
+    githubUrl: "#",
     featured: true,
-    gradient: "from-orange-500/20 to-amber-500/20",
-    accentColor: "oklch(0.72 0.18 60)",
+    gradient: "from-emerald-500/20 to-teal-500/20",
+    accentColor: "oklch(0.65 0.18 170)",
   },
 ];
 

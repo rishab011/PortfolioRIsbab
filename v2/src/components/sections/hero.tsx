@@ -116,7 +116,7 @@ export function Hero() {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary opacity-75" />
               <span className="relative inline-flex rounded-full h-2 w-2 bg-primary" />
             </span>
-            Open to Opportunities · Gen AI & Cloud Native
+            Open to Opportunities · MERN Stack Developer
           </motion.div>
 
           {/* Headline with line reveal */}
@@ -126,7 +126,7 @@ export function Hero() {
                 Hi, I&apos;m
               </RevealLine>
               <RevealLine delay={0.28} className="block gradient-text pb-2">
-                Kaveesh Bhat
+                Rishab Chib
               </RevealLine>
             </h1>
             <motion.p
@@ -135,9 +135,9 @@ export function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.7, duration: 0.6 }}
             >
-              Software Engineer building cloud-native, event-driven systems.{" "}
+              Building scalable web applications and solving real-world {" "}
               <span className="text-foreground/70">
-                Exploring Gen AI to shape the future of tech.
+                problems with clean code.
               </span>
             </motion.p>
           </div>
@@ -180,9 +180,9 @@ export function Hero() {
 
             <div className="flex items-center gap-1 ml-2">
               {[
-                { ref: linkedinMag.ref, style: linkedinMag.style, move: linkedinMag.onMouseMove, leave: linkedinMag.onMouseLeave, icon: <Linkedin className="h-5 w-5" />, label: "sr-only", sr: "LinkedIn", href: "https://linkedin.com/in/kaveesh-bhat" },
+                { ref: linkedinMag.ref, style: linkedinMag.style, move: linkedinMag.onMouseMove, leave: linkedinMag.onMouseLeave, icon: <Linkedin className="h-5 w-5" />, label: "sr-only", sr: "LinkedIn", href: "https://linkedin.com" },
                 { ref: githubMag.ref, style: githubMag.style, move: githubMag.onMouseMove, leave: githubMag.onMouseLeave, icon: <Github className="h-5 w-5" />, label: "sr-only", sr: "GitHub", href: "https://github.com" },
-                { ref: emailMag.ref, style: emailMag.style, move: emailMag.onMouseMove, leave: emailMag.onMouseLeave, icon: <Mail className="h-5 w-5" />, label: "sr-only", sr: "Email", href: "mailto:12akaveeshbhat@gmail.com" },
+                { ref: emailMag.ref, style: emailMag.style, move: emailMag.onMouseMove, leave: emailMag.onMouseLeave, icon: <Mail className="h-5 w-5" />, label: "sr-only", sr: "Email", href: "mailto:rishabchib1@gmail.com" },
               ].map(({ ref, style, move, leave, icon, sr, href }, i) => (
                 <animated.div key={i} style={style}>
                   <Button
@@ -215,8 +215,8 @@ export function Hero() {
             {/* Glow ring */}
             <div className="absolute -inset-3 rounded-full bg-gradient-to-r from-primary/40 via-primary/20 to-purple-500/30 blur-xl opacity-60 group-hover:opacity-90 transition-all duration-700" />
             <Avatar className="w-64 h-64 md:w-80 md:h-80 border-2 border-primary/20 shadow-2xl relative ring-1 ring-white/5">
-              <AvatarImage src="/avatar.jpg" alt="Kaveesh Bhat" className="object-cover" />
-              <AvatarFallback className="text-6xl font-bold bg-muted text-primary">KB</AvatarFallback>
+              <AvatarImage src="/avatar.jpg" alt="Rishab Chib" className="object-cover" />
+              <AvatarFallback className="text-6xl font-bold bg-muted text-primary">RC</AvatarFallback>
             </Avatar>
 
             {/* XP card */}
@@ -226,7 +226,7 @@ export function Hero() {
               animate={{ opacity: 1, y: 0, scale: 1 }}
               transition={{ delay: 1.1, type: "spring", stiffness: 200 }}
             >
-              <span className="text-3xl font-bold gradient-text">1.5+</span>
+              <span className="text-3xl font-bold gradient-text">1+</span>
               <span className="text-xs text-muted-foreground font-medium uppercase tracking-wider">Years Exp</span>
             </motion.div>
           </div>

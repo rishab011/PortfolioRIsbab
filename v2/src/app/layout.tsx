@@ -15,13 +15,13 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Kaveesh Bhat — Software Engineer",
+  title: "Rishab Chib — Software Engineer",
   description:
     "Java Engineer specializing in cloud-native microservices, Apache Kafka, Spring Boot, and Generative AI.",
   keywords: ["Software Engineer", "Java", "Kafka", "Spring Boot", "Next.js", "Gen AI"],
-  authors: [{ name: "Kaveesh Bhat" }],
+  authors: [{ name: "Rishab Chib" }],
   openGraph: {
-    title: "Kaveesh Bhat — Software Engineer",
+    title: "Rishab Chib — Software Engineer",
     description: "Cloud-native engineer exploring distributed systems and Generative AI.",
     type: "website",
   },

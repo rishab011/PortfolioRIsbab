@@ -14,20 +14,20 @@ const contactItems = [
   {
     icon: <MapPin className="h-5 w-5" />,
     label: "Location",
-    value: "Hyderabad, Telangana (Open to Relocation)",
+    value: "Hyderabad, India",
     href: null,
   },
   {
     icon: <Mail className="h-5 w-5" />,
     label: "Email",
-    value: "12akaveeshbhat@gmail.com",
-    href: "mailto:12akaveeshbhat@gmail.com",
+    value: "rishabchib1@gmail.com",
+    href: "mailto:rishabchib1@gmail.com",
   },
   {
     icon: <Phone className="h-5 w-5" />,
     label: "Phone",
-    value: "+91 6006-122535",
-    href: "tel:+916006122535",
+    value: "+91 6006803618",
+    href: "tel:+916006803618",
   },
 ];
 
@@ -132,7 +132,7 @@ export function Contact() {
           </h2>
           <p className="text-muted-foreground mt-4 max-w-lg mx-auto">
             Open to full-time roles, contract work, and interesting conversations about
-            distributed systems, microservices, or Kafka at scale.
+            web development and building scalable applications.
           </p>
         </motion.div>
 
@@ -257,7 +257,7 @@ export function Contact() {
                       animate={{ opacity: 1, height: "auto" }}
                       className="text-sm text-destructive font-medium text-center"
                     >
-                      Something went wrong. Please try again or email me directly at 12akaveeshbhat@gmail.com.
+                      Something went wrong. Please try again or email me directly at rishabchib1@gmail.com.
                     </motion.p>
                   )}
                 </div>

@@ -9,20 +9,43 @@ import { Badge } from "@/components/ui/badge";
 import { BriefcaseIcon, SparklesIcon } from "lucide-react";
 
 const skills = [
-  { category: "Languages", items: ["Java 11/17", "TypeScript", "Python", "SQL"] },
-  { category: "Frameworks & UI", items: ["Spring Boot", "React", "Next.js", "Tailwind CSS"] },
-  { category: "Infrastructure & Data", items: ["Apache Kafka", "Kubernetes", "Docker", "MySQL", "Redis"] },
-  { category: "AI & ML", items: ["OpenAI API", "RAG Systems", "LangChain", "TensorFlow", "Vector DBs"] },
+  { category: "Languages", items: ["Java", "JavaScript"] },
+  { category: "Web Development", items: ["HTML", "CSS", "Tailwind CSS", "ReactJS", "NodeJS", "ExpressJS", "MongoDB"] },
+  { category: "Database", items: ["MySQL", "MongoDB"] },
+  { category: "Tools", items: ["Git", "GitHub"] },
 ];
 
 const timeline = [
   {
-    role: "Programmer Analyst",
-    company: "Cognizant Technology Solutions",
-    period: "May 2025 – Present",
-    description:
-      "Developed and optimized distributed Spring Boot microservices at scale. Implemented Kafka producers/consumers for high-throughput event streaming. Built secure REST APIs improving inter-service communication by 40%.",
+    role: "Web Developer Intern",
+    company: "CoderOne",
+    period: "July 2024 – August 2024",
+    description: "Redesigned feedback interface for better usability. Built customizable form templates. Implemented data visualization to analyze user sentiment.",
   },
+  {
+    role: "Web Developer Intern",
+    company: "ByteXL",
+    period: "December 2023 – January 2024",
+    description: "Developed an online storefront for local artisans. Built dashboard for sales analytics. Improved product visibility and customer reach.",
+  },
+  {
+    role: "Software Developer Intern",
+    company: "Codegnan IT Solutions",
+    period: "June 2023 – August 2023",
+    description: "Developed a personalized feed feature. Optimized backend queries to improve data retrieval speed. Improved UI responsiveness.",
+  },
+  {
+    role: "Bachelor of Engineering (IT)",
+    company: "Chaitanya Bharathi Institute of Technology",
+    period: "2021 – 2025",
+    description: "Hyderabad, India",
+  },
+  {
+    role: "Certifications",
+    company: "Multiple Platforms",
+    period: "Completed",
+    description: "Java Programming (Infosys Springboard), SQL Intermediate (HackerRank), MERN Stack Fundamentals (Simplilearn), Frontend Development (freeCodeCamp).",
+  }
 ];
 
 // Physics-bouncy skill badge
@@ -154,15 +177,11 @@ export function About() {
               transition={{ duration: 0.6, delay: 0.1 }}
             >
               <p>
-                I&apos;m a <strong className="text-foreground">Software Engineer</strong> with
-                production experience building distributed, resilient systems at scale. My roots are
-                deep in event-driven architecture and microservice observability.
+                I am a <strong className="text-foreground">Full Stack Developer</strong> specializing in the MERN stack. I enjoy building responsive web applications and solving real-world problems through technology. I have experience working on multiple full-stack projects, improving UI/UX, optimizing backend performance, and building dashboards for data visualization.
               </p>
               <p>
-                I&apos;m passionate about the intersection of{" "}
-                <strong className="text-foreground">system design and emerging AI</strong> — writing
-                code that&apos;s functional, maintainable, and built to last while actively exploring
-                Generative AI applications.
+                Currently I am focused on improving my skills in{" "}
+                <strong className="text-foreground">Data Structures, backend architecture, and scalable web development.</strong>
               </p>
             </motion.div>
 
